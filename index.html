@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Latihan FrontEndDeveloper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar bg-success navbar-expand-lg shadow-lg fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Alwi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Section -->
+    <section class="pt-2">
+      <div class="jumbotron text-center">
+        <img src="img/profile.png" alt="profil" width="180px" class="rounded-circle img-thumbnail" />
+        <h1 class="display-4">Muhammad Alwi</h1>
+        <p class="lead">Informatic Engineering | Front-End Developer</p>
+      </div>
+    </section>
+    <!-- end Section -->
+
+    <!-- about section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row text-center pb-3 mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-6 mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam molestias, labore dolore commodi incidunt consequatur nesciunt minus eveniet doloribus, veritatis illo enim voluptates illum perspiciatis nobis fugiat
+            fuga. Ut provident omnis nostrum minus nobis excepturi pariatur debitis fugit, ducimus est praesentium, in sapiente, et qui laborum! Cupiditate, dolorum provident?
+          </div>
+          <div class="col-md-6 mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim asperiores aliquam vero quod soluta, aut molestias dolorum illo sed earum dolores dolore optio, distinctio nisi recusandae? Unde ducimus cumque quidem, fugit
+            sit sunt temporibus beatae commodi hic, quasi ratione doloribus vero, enim saepe rem? Ratione doloribus iure ipsum magni!
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Project -->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center pb-4 mb-3">
+          <div class="col">
+            <h2>Project Me</h2>
+          </div>
+        </div>
+        <div class="row pb-4 mb-3">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="img/1.jpg" class="card-img-top" alt="keyboard" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/1.jpg" class="card-img-top" alt="keyboard" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/1.jpg" class="card-img-top" alt="keyboard" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- endProject -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mt-2 p-2">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-6">
+            <!-- aletrt -->
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimah Kasih</strong> Pesan Anda Sudah kami Terima
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <!-- end alert -->
+
+            <form name="ptik-contact">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100 btn-Kirim">Kirim</button>
+              <button class="btn btn-primary btn-loading d-none w-100" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                <span role="status">Loading...</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- endContact -->
+
+    <!-- footer -->
+    <footer class="bg-success text-white text-center pb-2 justify-content-md-center pt-3">
+      <p>Created With <i class="bi bi-emoji-smile-fill"></i> by <a href="#" class="text-white fw-bold">PTIK</a></p>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxMssmdGrDg1xOpTynDni3hLt4Ixl9NURippfoHb5ohbSzzOSVW3u6-pjYWM15BNHV93g/exec";
+      const form = document.forms["ptik-contact"];
+      const btnKirim = document.querySelector(".btn-Kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit di klik
+        // tampilkan tombol loading, hilangkan tombol kirim;
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading;
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
